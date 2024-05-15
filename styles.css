@@ -1,0 +1,291 @@
+body{
+    display: flex;
+}
+.side-ctrl-bar{
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+margin-left: 40px;
+width: 223px;
+height: 634px;
+
+}
+
+.device-id{
+font-family: 'Open Sans',sans-serif;
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+color: #8D9598;
+
+}
+
+.device-drop-down{
+
+font-family: 'Open Sans',sans-serif;
+font-size: 20px;
+font-weight: 600;
+line-height: 27.24px;
+text-align: center;
+color: #5A5A5A;
+
+
+}
+
+.temp-num{
+font-family: 'Open Sans', sans-serif;
+font-size: 20px;
+font-weight: 400;
+line-height: 27.24px;
+text-align: center;
+color: #184A7C;
+}
+
+.temp-word{
+
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 21.79px;
+text-align: center;
+color: #8D9598;
+}
+.chevron-button{
+
+color:#5A5A5A;
+margin-left: 170px;
+margin-top:-10px;
+}
+
+/* .select-menu{
+display: flex;
+width: 109px;
+height: 38px;
+top: 292px;
+left: 49px;
+
+} */
+
+.select{
+ 
+ display: flex;
+
+width: 75px;
+height: 38px;
+top: 252px;
+left: 29px;
+/* border: 2px solid black; */
+margin: 4px;
+font-family: 'Open Sans', sans-serif;
+
+
+
+}
+.font{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    
+}
+
+.fontChangeForSelect{
+ width: 75px;
+font-family: 'Open Sans', sans-serif;
+font-size: 20px;
+font-weight: 700;
+line-height: 27.24px;
+text-align: center;
+color: #184A7C;
+
+}
+
+.white-checkbox{
+display: flex;
+width: 18px;
+height: 18px;
+top: 303px;
+left: 49px;
+gap: 0px;
+opacity: 0px;
+
+}
+.white{
+display: flex;
+font-family: 'Open Sans',sans-serif;
+font-size: 16px;
+font-weight: 400;
+justify-content: center;
+align-items: center;
+text-align: center;
+color: #5A5A5A;
+
+}
+.start{
+    display: flex;
+}
+.icon{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: 6px;
+opacity: 0px;
+color: #5A5A5A;
+}
+
+.setting{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.grid{
+    position: relative;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid green; */
+    width: 984px;
+    height: 157px;
+ 
+
+
+
+
+    
+}
+
+.ch1{
+/* display: flex;
+flex: 1;
+position: relative;
+justify-content: center;
+width: 231.49px;
+height: 136.73px; */
+box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.1);
+ flex: 1;
+position: relative;
+/* border: 1px solid black; */
+margin: 10px;
+padding-top: 5px;
+border-radius: 2%;
+}
+
+.blue-text{
+/* display: flex;
+justify-content: center;
+align-items: center; */
+font-family: 'Open Sans',sans-serif;
+font-size: 20px;
+padding: 15px ;
+line-height: 27.24px;
+text-align: center;
+color: #184A7C;
+}
+
+.button-container{
+    display: flex; 
+}
+
+.left-button{
+  
+    width: 100%;
+    margin-top: 12px;
+    padding: 12px 0px;
+    text-align: center;
+    border: 1px solid #5A5A5A;
+    
+    background-color: white;
+  
+
+}
+.right-button{
+   
+  width: 100%;
+  padding: 12px 0px;
+  margin-top: 12px;
+  text-align: center;
+  border: 1px solid #184A7C;
+  
+    background-color: #184A7C;
+
+}
+.green-button{
+    background-color: #00A814;
+    width: 100%;
+    margin-top: 12px;
+    text-align: center;
+    border: 1px solid #00A814;
+    font-size: 36px;
+}
+
+.grey-button{
+    background-color: #E7E6E6;
+    width: 100%;
+    margin-top: 12px;
+    border: 1px solid #00A814;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    font-size: 36px;
+    
+}
+
+.light-blue-button{
+    width: 100%;
+    margin-top: 12px;
+    text-align: start;
+    border: 1px solid #B3D5FF;
+    background-color: #B3D5FF;
+    display: flex;
+    font-size: 36px;
+      
+}
+
+.btn-text-color-white{
+color: white;
+}
+.btn-text-color-blue{
+    color: #184A7C;
+}
+
+.center{
+    justify-content: center;
+   
+}
+
+.percent{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+   
+}
+
+.faded{
+    background-color:rgba(255,255,255,0.6); ;
+}
+.overlay{
+    position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(255,255,255,0.7);
+   z-index: 1;
+   
+
+}
+.overlay-icon{
+    display: flex;
+    justify-content: center;
+  
+}
+
+
+
+
+
+
+
+
+
+
